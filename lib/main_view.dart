@@ -13,7 +13,7 @@ class VacanciesList extends StatelessWidget {
             itemBuilder: (context, index) {
               return  Column(
                 children: [
-                  Row(
+                  const Row(
                     children: [
                       CircleAvatar(),
                       Column(
@@ -24,11 +24,11 @@ class VacanciesList extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Wrap(
+                  const Wrap(
                     children: [Card(child: Text('Full-Time'),), Card(child: Text('Remote'),)],
                   ),
-                  Text('Salary'),
-                  ElevatedButton(onPressed: (){}, child: Text('Apply'))
+                  const Text('Salary'),
+                  ElevatedButton(onPressed: (){}, child: const Text('Apply'))
                 ],
               );
             },
