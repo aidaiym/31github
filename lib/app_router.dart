@@ -12,6 +12,8 @@ class AppRouter {
   static const String resumeBuilder = '/resumeBuilder';
   static const String studentMainView = '/studentMainView';
   static const String verifyEmail = '/verifyEmail';
+  static const String verifyEmail = '/ne';
+
 
 static Route<void> onGenerateRoute(RouteSettings settings, Users? user) {
   switch (settings.name) {
