@@ -1,6 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:kopuro/export_files.dart';
-import 'package:kopuro/modules/student/sign_up/view/verify_email.dart';
 
 class AppRouter {
   const AppRouter();
